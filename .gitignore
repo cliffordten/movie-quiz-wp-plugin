@@ -2,3 +2,5 @@
 mysql
 logs
 wordpress
+vendor
+*/**/movie-quiz/wp-content

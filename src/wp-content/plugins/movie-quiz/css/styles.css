@@ -1,0 +1,85 @@
+#movie-quiz-container {
+  font-family: Arial, sans-serif;
+  min-width: 700px;
+}
+
+#movie-quiz-container .tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+#movie-quiz-container button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+#movie-quiz-container #startQuizButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+#movie-quiz-container #TakeQuiz button {
+  background-color: #e4e4e4;
+  margin-top: 5px;
+}
+
+#movie-quiz-container button:hover {
+  background-color: #ddd;
+}
+
+#movie-quiz-container button.active,
+#movie-quiz-container #TakeQuiz button:hover {
+  background-color: #ccc;
+}
+
+#movie-quiz-container .tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+#movie-quiz-container .disabled {
+  color: #b8b8b8;
+  cursor: not-allowed;
+}
+
+#movie-quiz-container .disabled:hover {
+  background-color: unset;
+}
+
+#movie-quiz-container #quiz-container img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+}
+
+#movie-quiz-container #navigation-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10;
+  align-items: center;
+}
+
+#movie-quiz-container #prevQuestion {
+  margin-right: 10px;
+}
+
+#movie-quiz-container #form_error {
+  background-color: red;
+  color: white;
+}
+
+#movie-quiz-container #form_success {
+  background-color: green;
+  color: white;
+}
