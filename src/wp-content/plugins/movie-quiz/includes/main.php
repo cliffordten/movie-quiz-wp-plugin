@@ -57,33 +57,6 @@ class Movie_Quiz
 
     public static function activate()
     {
-        // global $wpdb;
-        // $charset_collate = $wpdb->get_charset_collate();
-
-        // $quiz_table = $wpdb->prefix . 'movie_quiz';
-        // $quiz_history_table = $wpdb->prefix . 'movie_quiz_history';
-
-        // $sql = "CREATE TABLE $quiz_table (
-        //     id mediumint(9) NOT NULL AUTO_INCREMENT,
-        //     question text NOT NULL,
-        //     image_url varchar(255) DEFAULT '' NOT NULL,
-        //     answers text NOT NULL,
-        //     correct_answer varchar(255) NOT NULL,
-        //     difficulty varchar(10) NOT NULL,
-        //     PRIMARY KEY (id)
-        // ) $charset_collate;
-
-        // CREATE TABLE $quiz_history_table (
-        //     id mediumint(9) NOT NULL AUTO_INCREMENT,
-        //     user_id bigint(20) NOT NULL,
-        //     quiz_data text NOT NULL,
-        //     score int NOT NULL,
-        //     created_at datetime DEFAULT CURRENT_TIMESTAMP NOT NULL,
-        //     PRIMARY KEY (id)
-        // ) $charset_collate;";
-
-        // require_once (ABSPATH . 'wp-admin/includes/upgrade.php');
-        // dbDelta($sql);
     }
 
     public static function deactivate()
